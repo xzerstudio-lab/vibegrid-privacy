@@ -12,8 +12,10 @@ VibeGrid is designed to work completely offline without user accounts or cloud s
 * Local Backups: If you choose to export a backup file (`.json`), the file is saved directly to the location you select on your device or personal cloud drive via Android's Storage Access Framework. We have no access to your exported files.
 * Data Deletion: Because your data resides solely on your device, uninstalling the app or clearing the app's storage in your Android settings permanently deletes all local app data.
 
-3. In-App Purchases (Google Play Billing)
-VibeGrid offers an optional one-time "Pro Unlock" purchase processed securely through Google Play Billing. We do not receive or store your credit card, e-wallet, or billing details. Google Play only provides our app with an anonymous purchase token and order status to unlock Pro features and allow you to restore your purchase on the same Google account. For more details, please review the [Google Privacy Policy](https://policies.google.com/privacy).
+3. App Lock & Biometric Authentication
+VibeGrid offers an optional passcode and biometric lock (fingerprint or face unlock) to protect your journal entries on your device:
+* Biometric Data: All biometric authentication is handled securely by the Android operating system. VibeGrid never accesses, collects, stores, or transmits your fingerprint or facial recognition data.
+* Local Passcode: If you set up a custom PIN or passcode, it is stored locally on your device solely to lock and unlock the app and is never transmitted to any external server.
 
 4. App Permissions
 * Notifications (`POST_NOTIFICATIONS`): Used solely to deliver optional, locally scheduled daily journaling reminders on your device. No notification data leaves your phone.
